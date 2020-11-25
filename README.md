@@ -4,12 +4,13 @@
 
 First introduced as IOXIDResolver.py from AirBus Security.
 
-    First blog post: https://airbus-cyber-security.com/the-oxid-resolver-part-1-remote-enumeration-of-network-interfaces-without-any-authentication/
-    Seccond blog post: https://airbus-cyber-security.com/the-oxid-resolver-part-2-accessing-a-remote-object-inside-dcom/
+[First blog post](https://airbus-cyber-security.com/the-oxid-resolver-part-1-remote-enumeration-of-network-interfaces-without-any-authentication/) 
 
-PingCastle adapted this technique as scanner module in C# here https://github.com/vletoux/pingcastle/blob/master/Scanners/OxidBindingScanner.cs. 
+[Seccond blog post](https://airbus-cyber-security.com/the-oxid-resolver-part-2-accessing-a-remote-object-inside-dcom/)
 
-I basically stole this code to make it work as standalone version.
+PingCastle adapted this technique as scanner module in C# [here](https://github.com/vletoux/pingcastle/blob/master/Scanners/OxidBindingScanner.cs). 
+
+I basically stole this code to make it work as standalone binary.
 
 Without argument it will search the current domain for computers and get bindings for all of them:
 ```
